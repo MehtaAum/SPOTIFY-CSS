@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify.com</title>
+    <link rel="icon" href="./asset/spotify.png">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css -->
+
+    <!-- remix -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- remix -->
+</head>
+<body>
+
+<!-- main-->
+ <div class="main">
+    <!-- navbar -->
+     <div class="navbar">
+
+        <div class="navleft">
+            <i class="ri-spotify-fill" title="SPOTIFY"></i>
+        </div>
+
+        <div class="navcenter">
+
+            <div class="logo" title="HOME">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" fill-rule="evenodd" d="M12.707 2.293a1 1 0 0 0-1.414 0l-7 7l-2 2a1 1 0 1 0 1.414 1.414L4 12.414V19a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-6.586l.293.293a1 1 0 0 0 1.414-1.414z" clip-rule="evenodd"/></svg>
+            </div>
+
+            <div class="inputclass" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.783 18.828a8.05 8.05 0 0 0 7.439-4.955a8.03 8.03 0 0 0-1.737-8.765a8.045 8.045 0 0 0-13.735 5.68c0 2.131.846 4.174 2.352 5.681a8.05 8.05 0 0 0 5.68 2.359m5.706-2.337l4.762 4.759"/></svg>
+
+                <input type="text" placeholder="What do you want to play ?">
+                 
+                <div title="BROWSE">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 21 21" id="svgsecond"><g fill="none" fill-rule="evenodd" stroke="#b3b3b3" stroke-linecap="round" stroke-linejoin="round"><path d="M18.5 14.5v-9a2 2 0 0 0-2-2h-12a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2"/><path d="M16.5 13.5v-3a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1m-8-7.002h8M4.5 6.5h2"/></g></svg>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="navright">
+
+            <button class="btnone">Explore Premium</button>
+
+            <button class="btnsec">
+                <i class="ri-download-cloud-fill"></i>
+                navbar.install-app
+            </button>
+
+            <div class="navlast">
+            <i class="ri-notification-4-line" title="NOTIFICATION"></i>
+               <div class="login" title="AUM MEHTA">
+                <div class="sublogin">
+                    A
+                </div>
+               </div>
+            </div>
+
+        </div>
+
+     </div>
+    <!-- navbar -->
+     
+<!-- main2  -->
+ <div class="main2">
+
+    <i class="ri-play-list-add-line"></i>
+  
+    <!--div1 -->
+    <div class="div1">
+
+       <div class="subdiv1">
+          <div class="infodiv1">
+            <h1>Your Library</h1>
+          </div>
+
+          <div class="infodivbtns">
+            <button id="btn1">Playlists</button>
+            <button id="btn2">Podcasts & Shows</button>
+          </div>
+       </div>
+
+       <div class="subdiv1-2">
+        <i class="ri-search-line" id="search2"></i>
+           <div class="playlist">
+            <h1>Recents</h1>
+            <i class="ri-list-unordered" id="search3"></i>
+           </div>
+        </div>
+
+
+        <div class="allsubdiv1">
+            <div class="box1">
+                <div class="img1"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                    <h1>Workout</h1>
+                    <div class="subinfo1">
+                      <i class="ri-pushpin-fill"></i>
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img2"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                    <h1>Spiritual</h1>
+                    <div class="subinfo1">
+                      <i class="ri-pushpin-fill"></i>
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="box1">
+                <div class="img3"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Instrumental</h1>
+                    <div class="subinfo1">
+                      <i class="ri-pushpin-fill"></i>
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img4"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Rap 91</h1>
+                    <div class="subinfo1">
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img5"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Road Trip</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img6"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Work Music</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img7"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Background</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img8"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Millionaire </h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img9"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Test Booster</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img10"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Random</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img11"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>David Goggins</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img12"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Bollywood</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img13"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Like</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img14"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Up Beat</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img15"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Phonk Gym</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img16"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>Andrew Tate</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="img17"><i class="ri-play-large-fill" title="PLAY"></i></div>
+                <div class="info1">
+                     <h1>BeerBiceps</h1>
+                    <div class="subinfo1">
+                      
+                      <p>playlist•Aum Mehta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+    </div>
+    <!--div1 -->
+
+
+
+
+
+    <!--div2 -->
+    <div class="div2">
+
+
+      <div class="subdiv2">
+
+          <div class="smallnav">
+             <button id="nav1">All</button>
+             <button id="nav2">Music</button>
+             <button id="nav3">Podcasts</button>
+          </div>
+
+          <div class="contentsubdiv2">
+            <div class="cont2">
+                <div class="contimg1"></div>
+                <div class="continfo1">
+                    <h1>Workout</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="cont2">
+                <div class="contimg2"></div>
+                <div class="continfo1">
+                    <h1>Rap 91</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="cont2">
+                <div class="contimg3"></div>
+                <div class="continfo1">
+                    <h1>Work Music</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="cont2">
+                <div class="contimg4"></div>
+                <div class="continfo1">
+                    <h1>Background Music</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="cont2">
+                <div class="contimg5"></div>
+                <div class="continfo1">
+                    <h1>Millionaire</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="cont2">
+                <div class="contimg6"></div>
+                <div class="continfo1">
+                    <h1>David Goggins</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="cont2">
+                <div class="contimg7"></div>
+                <div class="continfo1">
+                    <h1>Random</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="cont2">
+                <div class="contimg8"></div>
+                <div class="continfo1">
+                    <h1>Phonk Music</h1>
+                    <div class="roundgreen" title="PLAY">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+      </div>
+
+
+      <div class="subdiv2-2">
+
+        <div class="infodiv2-2">
+            <h1>Made For Mehta Aum</h1>
+          
+            <div class="allsubdiv2-2">
+                <div class="div2-1">
+                    <div class="div2img1">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>owlh,< 3beat,lokesh</p>
+                    </div>
+                </div>
+                <div class="div2-1">
+                    <div class="div2img2">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>ap dhillon, mitraz</p>
+                    </div>
+                </div>
+                <div class="div2-1">
+                    <div class="div2img3">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>shanker-ehsaanl,vishal-shekher</p>
+                    </div>
+                </div>
+                <div class="div2-1">
+                    <div class="div2img4">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>nalim and more</p>
+                    </div>
+                </div>
+                <div class="div2-1">
+                    <div class="div2img5">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>pritam,amit trivedi</p>
+                    </div>
+                </div>
+
+                <div class="div2-1">
+                    <div class="div2img6">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256">
+                                <path fill="black"
+                                    d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>American psycho</p>
+                    </div>
+                </div>
+
+                <div class="div2-1">
+                    <div class="div2img7">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256">
+                                <path fill="black"
+                                    d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>Gym songs</p>
+                    </div>
+                </div>
+
+                <div class="div2-1">
+                    <div class="div2img8">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256">
+                                <path fill="black"
+                                    d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>Honey singh</p>
+                    </div>
+                </div>
+
+                <div class="div2-1">
+                    <div class="div2img9">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256">
+                                <path fill="black"
+                                    d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>Phonk</p>
+                    </div>
+                </div>
+
+                <div class="div2-1">
+                    <div class="div2img10">
+                        <div class="roundgreen1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256">
+                                <path fill="black"
+                                    d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="div2para1">
+                        <p>siddhu</p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+      </div>
+
+
+
+      
+      <div class="subdiv2-3">
+
+        <div class="infodiv2-3">
+
+            <div class="both">
+            <h1>Recent Played</h1>
+            <h2 id="showme">Show All</h2>
+            </div>
+          
+            <div class="alldivthird">
+                <div class="div2-3">
+                    <div class="div3img1">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Rap 91</h1>
+                        <p>Hanumankind</p>
+                    </div>
+                </div>
+                <div class="div2-3">
+                    <div class="div3img2">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Work Music</h1>
+                        <p>Best work Music</p>
+                    </div>
+                </div>
+                <div class="div2-3">
+                    <div class="div3img3">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Random Songs</h1>
+                        <p>for trips and all that</p>
+                    </div>
+                </div>
+                <div class="div2-3">
+                    <div class="div3img4">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Indie</h1>
+                        <p>lofi version</p>
+                    </div>
+                </div>
+                <div class="div2-3">
+                    <div class="div3img5">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Motivation songs</h1>
+                        <p>Feel good</p>
+                    </div>
+                    
+                </div>
+                <!-- second row -->
+                 
+                <div class="div2-3">
+
+                    <div class="div3img01">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+
+                    </div>
+                    <div class="parathird">
+                        <h1>BeerBiceps</h1>
+                    </div>
+
+                </div>
+<div class="hide">
+                <div class="div2-3">
+
+                    <div class="div3img02">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Ankur warikoo</h1>
+                    </div>
+
+                </div>
+
+                <div class="div2-3">
+
+                    <div class="div3img03">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Dostcast</h1>                  
+                    </div>
+
+                </div>
+
+                <div class="div2-3">
+
+                    <div class="div3img04">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Prakhar ke Pravachan</h1>     
+                    </div>
+
+                </div>
+
+                <div class="div2-3">
+
+                    <div class="div3img05">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Raj shamani</h1>                 
+                    </div>
+
+                </div>
+
+                <div class="div2-3">
+
+                    <div class="div3img06">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Andew Tate</h1>                 
+                    </div>
+
+                </div>
+
+                <div class="div2-3">
+
+                    <div class="div3img07">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Triggered</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img08">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Mollywood</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img09">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Phonk Psycho</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img010">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Bella Ciao</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img011">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Andrea Brazillianm</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img012">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Brodgana</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img013">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Lost Stories</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img014">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Black cardi</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img015">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Sunrise</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img016">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Mind blow</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img017">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Andaz x</h1>                 
+                    </div>
+
+                </div>
+
+            
+                <div class="div2-3">
+
+                    <div class="div3img018">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Divine</h1>                 
+                    </div>
+
+                </div>
+
+            
+            
+                <div class="div2-3">
+
+                    <div class="div3img019">
+                        <div class="roundgreen2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1px" height="1px" viewBox="0 0 256 256"><path fill="black" d="M240 128a15.74 15.74 0 0 1-7.6 13.51L88.32 229.65a16 16 0 0 1-16.2.3A15.86 15.86 0 0 1 64 216.13V39.87a15.86 15.86 0 0 1 8.12-13.82a16 16 0 0 1 16.2.3l144.08 88.14A15.74 15.74 0 0 1 240 128"/></svg>
+                        </div>
+                    </div>
+                    <div class="parathird">
+                        <h1>Mc stan</h1>                 
+                    </div>
+
+                </div>
+
+</div>
+          
+
+            
+            
+             
+
+            
+                <!-- second row -->
+
+            
+        </div>
+
+      </div>
+
+    </div>
+    <!--div2 -->
+
+
+
+
+</div> 
+
+<!-- main2  --> 
+
+
+ </div>
+
+
+
+<!-- main-->
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+
+<script>
+// search
+$(document).ready(function() {
+    $(".inputclass").click(function() {
+        // Remove the active-border class from all divs
+        $(".inputclass").removeClass("active-border");
+        
+        // Add the active-border class to the clicked div
+        $(".inputclass").addClass("active-border");
+    });
+
+    // Optional: If you want to remove the border when clicking outside the divs
+    $(document).click(function(event) {
+        if (!$(event.target).closest('.inputclass').length) {
+            $(".inputclass").removeClass("active-border");
+        }
+    });
+});
+
+// search
+
+
+
+// closesdiv1
+
+$(document).ready(function(){
+    $(".ri-play-list-add-line").click(function(){
+        $(".div1").toggle(500);
+        $(".div2").css("width","1920px");
+    })
+})
+
+// closesdiv1
+
+$(document).ready(function(){
+     $(".hide ").hide(500)
+    $("#showme").click(function(){
+        $(".hide ").fadeToggle(500)
+    })
+})
+
+
+</script>
+
+
+</html>
